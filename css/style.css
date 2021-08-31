@@ -1,0 +1,159 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    background: #7dd1c3;
+}
+
+.logo{
+    margin: 0px 0px 0 50px;
+    color: #11153E;
+   
+}
+
+
+.arriba{
+    background: rgba(255, 200, 200, 0.2);
+    color: white;
+    text-align: center;
+}
+.lineaDos{
+    background: rgba(161, 74, 74, 0.2);
+
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+    font-size: 25px;
+}
+
+a:hover{
+    color: red;
+}
+.atencion{
+    text-align: right;
+    margin: auto 30px;
+}
+.imagenes{
+    margin: 5px 0 60px 0;
+
+}
+.img{
+    animation: animacionImg ease-in 1s infinite alternate;
+}
+@keyframes animacionImg{
+    0%{
+        transform: scale(1);
+    }100%{
+        transform: scale(1.1);
+    }
+}
+
+.btnproductos {
+    border: none;
+    background: yellow;
+    color: black;  
+
+ }
+.padreredes{
+    display: flex;
+    justify-content: space-around;
+}
+
+.redes{
+    margin: 5rem;
+}
+.redesdos{
+    font-size: 50px;
+    margin: 50px;
+    text-align: center;
+    color: rgb(40, 42, 165);
+}
+.compromiso{
+    display: flex;
+    justify-content: center;
+    padding: 5rem;
+    text-align: center;
+}
+
+.tarjeta{
+    display: flex;
+    margin: 50px;
+    background: white;
+    border-radius: 15px;
+}
+
+.reverso{
+    display: flex;
+    margin: 50px;
+    background: white;
+    border-radius: 15px;
+    flex-direction: row-reverse;
+}
+
+.tarjeta:hover, .reverso:hover {
+    transform: scale(1.07);
+}
+
+.imagen{
+    margin: 15px;
+    border-radius: 15px;
+}
+
+.texto{
+    text-align: center;
+    font-size: 25px;
+}
+
+/*Productos*/
+.contenedor-secciones{
+    display: flex;
+    justify-content: center;
+    background: white;
+    border-radius: 30px;
+    margin: 20px 30px;
+}
+.seccion-texto{
+    text-align: center;
+    margin: 10px;
+    font-size: 20px;
+}
+.acercar:hover{
+    transform: scale(1.09);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background: linear-gradient(360deg, #32329B 1.7%, rgba(64, 64, 243, 0) 100%);
+    mix-blend-mode: normal;
+    border-top: black solid;
+    height: 500px;
+}
+.barra{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+
+}
+.block{
+    display: block;
+    margin: 25px;
+}
+
+
+
+
+
+
+
