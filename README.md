@@ -1,5 +1,3 @@
 # Plantilla-01
-esta es una plantilla web para
-informacion empresa
-muestra de productos 
-contacto
+Esta es una plantilla web para informacion de empresa,
+galeria de productos y formulario de contacto.
